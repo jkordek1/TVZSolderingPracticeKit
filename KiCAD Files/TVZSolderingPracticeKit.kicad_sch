@@ -756,7 +756,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_SPST"
+		(symbol "Switch:SW_SPDT"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -765,15 +765,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "SW"
-				(at 0 3.175 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "SW_SPST"
-				(at 0 -2.54 0)
+			(property "Value" "SW_SPDT"
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -790,6 +790,15 @@
 				)
 			)
 			(property "Datasheet" "~"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
 				(at 0 0 0)
 				(effects
 					(font
@@ -798,7 +807,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Single Pole Single Throw (SPST) switch"
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
 				(at 0 0 0)
 				(effects
 					(font
@@ -807,19 +816,10 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "switch lever"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_SPST_0_0"
+			(symbol "SW_SPDT_0_1"
 				(circle
 					(center -2.032 0)
-					(radius 0.508)
+					(radius 0.4572)
 					(stroke
 						(width 0)
 						(type default)
@@ -830,7 +830,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.254) (xy 1.524 1.778)
+						(xy -1.651 0.254) (xy 1.651 2.286)
 					)
 					(stroke
 						(width 0)
@@ -841,8 +841,19 @@
 					)
 				)
 				(circle
-					(center 2.032 0)
-					(radius 0.508)
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
 					(stroke
 						(width 0)
 						(type default)
@@ -852,9 +863,38 @@
 					)
 				)
 			)
-			(symbol "SW_SPST_1_1"
+			(symbol "SW_SPDT_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(pin passive line
 					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
 					(length 2.54)
 					(name "A"
 						(effects
@@ -872,16 +912,16 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at 5.08 -2.54 180)
 					(length 2.54)
-					(name "B"
+					(name "C"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1363,6 +1403,10 @@
 		(at 40.64 39.37)
 		(uuid "3486e185-50b7-4234-9127-e8669869fd37")
 	)
+	(no_connect
+		(at 30.48 31.75)
+		(uuid "91210f5e-2995-466b-9144-072768ec9e35")
+	)
 	(wire
 		(pts
 			(xy 85.09 39.37) (xy 82.55 39.37)
@@ -1715,7 +1759,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 26.67) (xy 17.78 35.56)
+			(xy 17.78 29.21) (xy 17.78 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1875,7 +1919,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 26.67) (xy 20.32 26.67)
+			(xy 17.78 29.21) (xy 20.32 29.21)
 		)
 		(stroke
 			(width 0)
@@ -2118,7 +2162,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 75.438 33.02 90)
 			(effects
 				(font
@@ -2137,6 +2181,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 73.66 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part Number" ""
 			(at 73.66 33.02 0)
 			(effects
 				(font
@@ -2185,7 +2238,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 167.64 41.148 90)
 			(effects
 				(font
@@ -2205,6 +2258,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 167.64 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part Number" ""
+			(at 167.64 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2280,6 +2342,15 @@
 				(hide yes)
 			)
 		)
+		(property "TME Part Number" ""
+			(at 104.14 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "60d1af22-75ee-437d-b348-2207e4a0a6e1")
 		)
@@ -2320,7 +2391,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 91.44 41.148 90)
 			(effects
 				(font
@@ -2347,6 +2418,15 @@
 				(hide yes)
 			)
 		)
+		(property "TME Part Number" ""
+			(at 91.44 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "315be0a3-5e3b-47bd-9e0e-bdd9a27aa9ed")
 		)
@@ -2357,6 +2437,86 @@
 			(project "TVZSolderingPracticeKit"
 				(path "/f8b435ab-5f6e-4fa9-ab74-0f98728395bc"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 25.4 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3014388b-7f45-45df-994d-d00266c7e4b1")
+		(property "Reference" "SW10"
+			(at 25.4 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 25.4 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprint:OS102011MS2QN1"
+			(at 25.4 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 25.4 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part Number" "OS102011MS2QN1"
+			(at 25.4 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d0cb10c4-1b61-4c4c-9a8a-5133282fbb80")
+		)
+		(pin "1"
+			(uuid "961fc2b5-f74b-45c9-9363-6022df84269a")
+		)
+		(pin "2"
+			(uuid "d5fde63c-66d6-4568-b0d2-9fea36e2dfae")
+		)
+		(instances
+			(project ""
+				(path "/f8b435ab-5f6e-4fa9-ab74-0f98728395bc"
+					(reference "SW10")
 					(unit 1)
 				)
 			)
@@ -2408,6 +2568,15 @@
 			)
 		)
 		(property "Description" "Precision Timers, 555 compatible,  PDIP-8"
+			(at 53.34 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part Number" ""
 			(at 53.34 39.37 0)
 			(effects
 				(font
@@ -2568,6 +2737,15 @@
 				(hide yes)
 			)
 		)
+		(property "TME Part Number" ""
+			(at 91.44 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "71f8ff7e-84e2-420c-9bd7-28af4fa1d222")
 		)
@@ -2608,7 +2786,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 78.74 41.148 90)
 			(effects
 				(font
@@ -2628,6 +2806,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 78.74 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part Number" ""
+			(at 78.74 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2771,6 +2958,15 @@
 				(hide yes)
 			)
 		)
+		(property "TME Part Number" ""
+			(at 53.34 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "68d10f25-089e-470a-8acc-ef1b07acff59")
 		)
@@ -2811,7 +3007,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 104.14 41.148 90)
 			(effects
 				(font
@@ -2831,6 +3027,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part Number" ""
+			(at 104.14 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2881,7 +3086,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprint:LD-BZEN-1205"
 			(at 89.535 20.32 90)
 			(effects
 				(font
@@ -2900,6 +3105,15 @@
 			)
 		)
 		(property "Description" "Buzzer, polarized"
+			(at 90.17 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part Number" ""
 			(at 90.17 22.86 0)
 			(effects
 				(font
@@ -2948,7 +3162,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 142.24 41.148 90)
 			(effects
 				(font
@@ -2968,6 +3182,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 142.24 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part Number" ""
+			(at 142.24 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3015,7 +3238,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 154.94 41.148 90)
 			(effects
 				(font
@@ -3035,6 +3258,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 154.94 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part Number" ""
+			(at 154.94 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3104,6 +3336,15 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
+			(at 17.78 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part Number" ""
 			(at 17.78 40.64 0)
 			(effects
 				(font
@@ -3284,7 +3525,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 129.54 41.148 90)
 			(effects
 				(font
@@ -3304,6 +3545,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 129.54 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part Number" ""
+			(at 129.54 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3371,6 +3621,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 129.54 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part Number" ""
 			(at 129.54 50.8 0)
 			(effects
 				(font
@@ -3447,6 +3706,15 @@
 				(hide yes)
 			)
 		)
+		(property "TME Part Number" ""
+			(at 154.94 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5e254d23-b4a0-447e-b938-34916f2f8879")
 		)
@@ -3487,7 +3755,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 116.84 41.148 90)
 			(effects
 				(font
@@ -3514,6 +3782,15 @@
 				(hide yes)
 			)
 		)
+		(property "TME Part Number" ""
+			(at 116.84 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "51babef0-3cfc-4eb5-9aae-50dd3303a8cc")
 		)
@@ -3524,74 +3801,6 @@
 			(project "TVZSolderingPracticeKit"
 				(path "/f8b435ab-5f6e-4fa9-ab74-0f98728395bc"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 25.4 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d507d1f4-d022-4836-b09d-40d0c0c7aa53")
-		(property "Reference" "SW9"
-			(at 25.4 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPST"
-			(at 25.4 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 25.4 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 25.4 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "785e37a5-1cb9-47e7-9d47-62fc1fa0966c")
-		)
-		(pin "2"
-			(uuid "8f8d33d5-07df-4578-a803-285ebe17ff87")
-		)
-		(instances
-			(project ""
-				(path "/f8b435ab-5f6e-4fa9-ab74-0f98728395bc"
-					(reference "SW9")
 					(unit 1)
 				)
 			)
@@ -3642,6 +3851,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 78.74 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part Number" ""
 			(at 78.74 50.8 0)
 			(effects
 				(font
@@ -3718,6 +3936,15 @@
 				(hide yes)
 			)
 		)
+		(property "TME Part Number" ""
+			(at 116.84 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a0bf9fa9-5513-4357-a219-165945cf3aed")
 		)
@@ -3786,6 +4013,15 @@
 				(hide yes)
 			)
 		)
+		(property "TME Part Number" ""
+			(at 142.24 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b0fbcaeb-5389-436a-9e70-4291dfc92f1c")
 		)
@@ -3846,6 +4082,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 167.64 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part Number" ""
 			(at 167.64 50.8 0)
 			(effects
 				(font
