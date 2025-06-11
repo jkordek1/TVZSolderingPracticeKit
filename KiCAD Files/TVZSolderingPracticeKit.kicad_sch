@@ -5,28 +5,23 @@
 	(uuid "f8b435ab-5f6e-4fa9-ab74-0f98728395bc")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:Battery_Cell"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Connector:Barrel_Jack_MountingPin"
 			(pin_names
-				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "BT"
-				(at 2.54 2.54 0)
+			(property "Reference" "J"
+				(at 0 5.334 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "Battery_Cell"
-				(at 2.54 0 0)
+			(property "Value" "Barrel_Jack_MountingPin"
+				(at 1.27 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -35,7 +30,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 1.524 90)
+				(at 1.27 -1.016 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -44,7 +39,7 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 0 1.524 90)
+				(at 1.27 -1.016 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -52,7 +47,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Single-cell battery"
+			(property "Description" "DC Barrel Jack with a mounting pin"
 				(at 0 0 0)
 				(effects
 					(font
@@ -61,7 +56,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "battery cell"
+			(property "ki_keywords" "DC power barrel jack connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -70,56 +65,30 @@
 					(hide yes)
 				)
 			)
-			(symbol "Battery_Cell_0_1"
+			(property "ki_fp_filters" "BarrelJack*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Barrel_Jack_MountingPin_0_1"
 				(rectangle
-					(start -2.286 1.778)
-					(end 2.286 1.524)
+					(start -5.08 3.81)
+					(end 5.08 -3.81)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.524 1.016)
-					(end 1.524 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
+						(type background)
 					)
 				)
 				(polyline
 					(pts
-						(xy 0 1.778) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 3.048) (xy 1.778 3.048)
+						(xy -3.81 -2.54) (xy -2.54 -2.54) (xy -1.27 -1.27) (xy 0 -2.54) (xy 2.54 -2.54) (xy 5.08 -2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -129,9 +98,44 @@
 						(type none)
 					)
 				)
+				(arc
+					(start -3.302 1.905)
+					(mid -3.9343 2.54)
+					(end -3.302 3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.302 1.905)
+					(mid -3.9343 2.54)
+					(end -3.302 3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 3.683 3.175)
+					(end -3.302 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
-						(xy 1.27 3.556) (xy 1.27 2.54)
+						(xy 5.08 2.54) (xy 3.81 2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -142,11 +146,49 @@
 					)
 				)
 			)
-			(symbol "Battery_Cell_1_1"
+			(symbol "Barrel_Jack_MountingPin_1_1"
+				(polyline
+					(pts
+						(xy -1.016 -4.572) (xy 1.016 -4.572)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Mounting"
+					(at 0 -4.191 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
 				(pin passive line
-					(at 0 5.08 270)
+					(at 0 -7.62 90)
+					(length 3.048)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
 					(length 2.54)
-					(name "+"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -162,9 +204,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -2.54 90)
+					(at 7.62 -2.54 180)
 					(length 2.54)
-					(name "-"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -465,6 +507,156 @@
 					(at 0 -3.81 90)
 					(length 2.794)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:D_Schottky"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Schottky diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Schottky_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -932,6 +1124,164 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Symbols:ICVT-8P"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board no)
+			(property "Reference" "U"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ICVT-8P_1_1"
+				(rectangle
+					(start -2.54 5.08)
+					(end 2.54 -5.08)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 3.81) (xy -5.08 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -5.08 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -5.08 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -3.81) (xy -5.08 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 3.81) (xy 5.08 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 5.08 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy 5.08 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -3.81) (xy 5.08 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Timer:NE555P"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1295,6 +1645,17 @@
 		)
 		(uuid "c486544d-51c4-4fbb-ad40-7107ea676a52")
 	)
+	(text "TO-DO:\n- obojati switch\n- buzzer model fix"
+		(exclude_from_sim no)
+		(at 33.274 181.356 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d9e1edc9-d298-4f9a-8770-dca4a3b80439")
+	)
 	(text "Najviša nota"
 		(exclude_from_sim no)
 		(at 126.238 71.374 0)
@@ -1384,12 +1745,6 @@
 		(uuid "c2b06061-b04b-4a12-9483-56e3bedd5acf")
 	)
 	(junction
-		(at 171.45 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c7c6649c-efe8-41e1-8271-c633f18c47af")
-	)
-	(junction
 		(at 54.61 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1408,6 +1763,12 @@
 		(uuid "e3498ab4-83c8-4c53-8c08-dd3ce504b8c8")
 	)
 	(junction
+		(at 171.45 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5fc8d6f-dab4-4b02-89e1-c1bf622004f1")
+	)
+	(junction
 		(at 81.28 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1424,8 +1785,12 @@
 		(uuid "3486e185-50b7-4234-9127-e8669869fd37")
 	)
 	(no_connect
-		(at 173.99 35.56)
+		(at 185.42 35.56)
 		(uuid "91210f5e-2995-466b-9144-072768ec9e35")
+	)
+	(no_connect
+		(at 209.55 43.18)
+		(uuid "e8ecb4d5-79cb-4361-b6ee-749f4c8f0994")
 	)
 	(wire
 		(pts
@@ -1689,7 +2054,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 46.99) (xy 186.69 50.8)
+			(xy 198.12 38.1) (xy 198.12 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1716,6 +2081,16 @@
 			(type default)
 		)
 		(uuid "4d939e76-7bdc-4d4f-a8b5-e5e4a7900d6d")
+	)
+	(wire
+		(pts
+			(xy 171.45 30.48) (xy 173.99 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e55f143-d876-4586-ac17-3ae9aac63346")
 	)
 	(wire
 		(pts
@@ -1776,16 +2151,6 @@
 			(type default)
 		)
 		(uuid "6252ee83-61fd-445b-bf9f-16d2facaed31")
-	)
-	(wire
-		(pts
-			(xy 186.69 33.02) (xy 186.69 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "661f2c15-144c-4aa4-8f2a-8939f7eb3ffa")
 	)
 	(wire
 		(pts
@@ -1889,6 +2254,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 38.1) (xy 201.93 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9792954e-f773-45b6-a461-89aa7322d22a")
+	)
+	(wire
+		(pts
 			(xy 138.43 43.18) (xy 130.81 43.18)
 		)
 		(stroke
@@ -1906,6 +2281,16 @@
 			(type default)
 		)
 		(uuid "a4cd33a7-0432-4452-b168-a787f0657f45")
+	)
+	(wire
+		(pts
+			(xy 181.61 30.48) (xy 185.42 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa8c285b-9037-486d-9303-f16e37cfb299")
 	)
 	(wire
 		(pts
@@ -1939,7 +2324,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 33.02) (xy 184.15 33.02)
+			(xy 195.58 33.02) (xy 201.93 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2089,16 +2474,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 30.48) (xy 171.45 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1c4d8e5-5bed-4f11-b238-f71fd61bb3a7")
-	)
-	(wire
-		(pts
 			(xy 171.45 48.26) (xy 171.45 30.48)
 		)
 		(stroke
@@ -2210,7 +2585,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME Part Number" ""
+		(property "TME Part Number" "1/4W1.0K"
 			(at 130.81 36.83 0)
 			(effects
 				(font
@@ -2287,7 +2662,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME Part Number" ""
+		(property "TME Part Number" "1/4W1.5K"
 			(at 36.83 43.18 90)
 			(effects
 				(font
@@ -2337,7 +2712,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
 			(at 62.23 49.53 0)
 			(effects
 				(font
@@ -2364,7 +2739,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME Part Number" ""
+		(property "TME Part Number" "TACT-64K-F"
 			(at 62.23 54.61 0)
 			(effects
 				(font
@@ -2441,7 +2816,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME Part Number" ""
+		(property "TME Part Number" "CF1/4W-390R"
 			(at 113.03 43.18 90)
 			(effects
 				(font
@@ -2467,7 +2842,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPDT")
-		(at 179.07 33.02 0)
+		(at 190.5 33.02 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2477,7 +2852,7 @@
 		(fields_autoplaced yes)
 		(uuid "3014388b-7f45-45df-994d-d00266c7e4b1")
 		(property "Reference" "SW10"
-			(at 179.07 24.13 0)
+			(at 190.5 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2485,7 +2860,7 @@
 			)
 		)
 		(property "Value" "SW_SPDT"
-			(at 179.07 26.67 0)
+			(at 190.5 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2493,7 +2868,7 @@
 			)
 		)
 		(property "Footprint" "Footprint:OS102011MS2QN1"
-			(at 179.07 33.02 0)
+			(at 190.5 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2502,7 +2877,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 179.07 40.64 0)
+			(at 190.5 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2511,7 +2886,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 179.07 33.02 0)
+			(at 190.5 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2520,7 +2895,7 @@
 			)
 		)
 		(property "TME Part Number" "OS102011MS2QN1"
-			(at 179.07 33.02 0)
+			(at 190.5 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2574,7 +2949,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Footprint:DIP-8_W7.62mm-socket"
 			(at 134.62 53.34 0)
 			(effects
 				(font
@@ -2601,7 +2976,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME Part Number" ""
+		(property "TME Part Number" "NE555P"
 			(at 151.13 43.18 0)
 			(effects
 				(font
@@ -2645,7 +3020,7 @@
 	)
 	(symbol
 		(lib_id "power:GND1")
-		(at 186.69 50.8 0)
+		(at 198.12 41.91 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2655,7 +3030,7 @@
 		(fields_autoplaced yes)
 		(uuid "44b49987-cec5-479a-b0e5-9dea60d1248e")
 		(property "Reference" "#PWR04"
-			(at 186.69 57.15 0)
+			(at 198.12 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2664,7 +3039,7 @@
 			)
 		)
 		(property "Value" "GND1"
-			(at 186.69 55.88 0)
+			(at 198.12 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2672,7 +3047,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 50.8 0)
+			(at 198.12 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2681,7 +3056,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 50.8 0)
+			(at 198.12 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2690,7 +3065,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 186.69 50.8 0)
+			(at 198.12 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2736,7 +3111,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
 			(at 49.53 49.53 0)
 			(effects
 				(font
@@ -2763,7 +3138,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME Part Number" ""
+		(property "TME Part Number" "TACT-64K-F"
 			(at 49.53 54.61 0)
 			(effects
 				(font
@@ -2840,7 +3215,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME Part Number" ""
+		(property "TME Part Number" "1/4W6.2K"
 			(at 125.73 43.18 90)
 			(effects
 				(font
@@ -2932,6 +3307,89 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Barrel_Jack_MountingPin")
+		(at 209.55 35.56 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "632c8f4b-d077-4d5a-86fc-d87b798df63c")
+		(property "Reference" "J1"
+			(at 215.9 34.6455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Barrel Jack"
+			(at 215.9 37.1855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Footprint:DCJ250-10-A-K1-K"
+			(at 208.28 36.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 36.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Barrel Jack with a mounting pin"
+			(at 209.55 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part Number" "DCJ250-10-A-K1-K"
+			(at 209.55 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "MP"
+			(uuid "92a5a834-bac7-4257-a0a6-2ed1d4ffe348")
+		)
+		(pin "1"
+			(uuid "c06786db-6a6d-4272-bf77-f613ce8a9ecb")
+		)
+		(pin "2"
+			(uuid "01971e9f-affc-4966-8ab7-3049e5616249")
+		)
+		(instances
+			(project ""
+				(path "/f8b435ab-5f6e-4fa9-ab74-0f98728395bc"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 151.13 69.85 0)
 		(mirror y)
@@ -2960,7 +3418,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 			(at 150.1648 73.66 0)
 			(effects
 				(font
@@ -2987,7 +3445,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME Part Number" ""
+		(property "TME Part Number" "CCT-100N/50V-S"
 			(at 151.13 69.85 0)
 			(effects
 				(font
@@ -3064,7 +3522,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME Part Number" ""
+		(property "TME Part Number" "1/4W910R"
 			(at 100.33 43.18 90)
 			(effects
 				(font
@@ -3097,24 +3555,21 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "81789e73-1877-4fb7-8be2-fc9420af33d6")
 		(property "Reference" "BZ1"
-			(at 110.49 25.3999 0)
+			(at 108.458 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Buzzer"
-			(at 110.49 27.9399 0)
+		(property "Value" "LD-BZEN-1205"
+			(at 102.87 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Footprint:LD-BZEN-1205"
@@ -3144,7 +3599,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME Part Number" ""
+		(property "TME Part Number" "LD-BZEN-1205"
 			(at 114.3 26.67 0)
 			(effects
 				(font
@@ -3221,7 +3676,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME Part Number" ""
+		(property "TME Part Number" "1/4W620R"
 			(at 62.23 43.18 90)
 			(effects
 				(font
@@ -3298,7 +3753,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME Part Number" ""
+		(property "TME Part Number" "1/4W1.3K"
 			(at 49.53 43.18 90)
 			(effects
 				(font
@@ -3317,86 +3772,6 @@
 			(project "TVZSolderingPracticeKit"
 				(path "/f8b435ab-5f6e-4fa9-ab74-0f98728395bc"
 					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Battery_Cell")
-		(at 186.69 44.45 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9eafdb95-888c-4a69-932e-24a2ceed02bf")
-		(property "Reference" "BT1"
-			(at 182.88 41.3384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "9V"
-			(at 182.88 43.8784 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 42.926 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 186.69 42.926 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single-cell battery"
-			(at 186.69 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TME Part Number" ""
-			(at 186.69 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e6492e91-7976-4ffa-a5bc-d53edb7d793a")
-		)
-		(pin "2"
-			(uuid "13346268-2d27-465e-b68b-2be165a9b80e")
-		)
-		(instances
-			(project ""
-				(path "/f8b435ab-5f6e-4fa9-ab74-0f98728395bc"
-					(reference "BT1")
 					(unit 1)
 				)
 			)
@@ -3589,7 +3964,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME Part Number" ""
+		(property "TME Part Number" "1/4W1.1K"
 			(at 74.93 43.18 90)
 			(effects
 				(font
@@ -3639,7 +4014,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
 			(at 87.63 49.53 0)
 			(effects
 				(font
@@ -3666,7 +4041,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME Part Number" ""
+		(property "TME Part Number" "TACT-64K-F"
 			(at 87.63 54.61 0)
 			(effects
 				(font
@@ -3716,7 +4091,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
 			(at 113.03 49.53 0)
 			(effects
 				(font
@@ -3743,7 +4118,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME Part Number" ""
+		(property "TME Part Number" "TACT-64K-F"
 			(at 113.03 54.61 0)
 			(effects
 				(font
@@ -3820,7 +4195,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME Part Number" ""
+		(property "TME Part Number" "1/4W1.0K"
 			(at 87.63 43.18 90)
 			(effects
 				(font
@@ -3870,7 +4245,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
 			(at 36.83 49.53 0)
 			(effects
 				(font
@@ -3897,7 +4272,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME Part Number" ""
+		(property "TME Part Number" "TACT-64K-F"
 			(at 36.83 54.61 0)
 			(effects
 				(font
@@ -3947,7 +4322,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
 			(at 74.93 49.53 0)
 			(effects
 				(font
@@ -3974,7 +4349,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME Part Number" ""
+		(property "TME Part Number" "TACT-64K-F"
 			(at 74.93 54.61 0)
 			(effects
 				(font
@@ -4024,7 +4399,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
 			(at 100.33 49.53 0)
 			(effects
 				(font
@@ -4051,7 +4426,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME Part Number" ""
+		(property "TME Part Number" "TACT-64K-F"
 			(at 100.33 54.61 0)
 			(effects
 				(font
@@ -4070,6 +4445,155 @@
 			(project "TVZSolderingPracticeKit"
 				(path "/f8b435ab-5f6e-4fa9-ab74-0f98728395bc"
 					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 177.8 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1f7e187-024d-450f-8f55-18a206cc3cbb")
+		(property "Reference" "D1"
+			(at 177.4825 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SR150-DC"
+			(at 177.4825 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 177.8 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 177.8 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part Number" "SR150-DC"
+			(at 177.8 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c181cc6-97f9-44b1-8644-eacababe893a")
+		)
+		(pin "2"
+			(uuid "4a70d7d2-d6d9-4524-9edf-6180ca86219d")
+		)
+		(instances
+			(project ""
+				(path "/f8b435ab-5f6e-4fa9-ab74-0f98728395bc"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Symbols:ICVT-8P")
+		(at 151.13 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "e7bd7a58-5bce-47a8-bbc3-4aea01cae92a")
+		(property "Reference" "U2"
+			(at 149.86 14.986 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 157.48 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part Number" "ICVT-8P"
+			(at 151.13 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/f8b435ab-5f6e-4fa9-ab74-0f98728395bc"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -4101,7 +4625,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
 			(at 125.73 49.53 0)
 			(effects
 				(font
@@ -4128,7 +4652,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME Part Number" ""
+		(property "TME Part Number" "TACT-64K-F"
 			(at 125.73 54.61 0)
 			(effects
 				(font
