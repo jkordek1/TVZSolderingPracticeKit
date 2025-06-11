@@ -148,15 +148,15 @@
 		(uuid "633eb60d-e2e3-433c-aca1-6231ab073121")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/Component3DModels/9x12 Buzzer.step"
+	(model "${KIPRJMOD}/Component3DModels/LD-BZEN-1205.step"
 		(offset
-			(xyz 3.3 -4.5 26)
+			(xyz 3.2 0 0)
 		)
 		(scale
-			(xyz 0.85 0.85 0.85)
+			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 90 -0 -0)
+			(xyz -0 -0 -0)
 		)
 	)
 )

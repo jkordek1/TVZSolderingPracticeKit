@@ -178,9 +178,9 @@
 		(uuid "8bc4bc93-16cf-4364-bffd-2257ee6cf732")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/Component3DModels/OS102011MS2QN1.stp"
+	(model "${KIPRJMOD}/Component3DModels/OS102011MS2QN1.step"
 		(offset
-			(xyz 0 0 4.5)
+			(xyz 0 0 4.4)
 		)
 		(scale
 			(xyz 1 1 1)

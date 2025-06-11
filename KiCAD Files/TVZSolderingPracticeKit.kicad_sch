@@ -798,6 +798,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -1645,17 +1752,6 @@
 		)
 		(uuid "c486544d-51c4-4fbb-ad40-7107ea676a52")
 	)
-	(text "TO-DO:\n- obojati switch\n- buzzer model fix"
-		(exclude_from_sim no)
-		(at 33.274 181.356 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d9e1edc9-d298-4f9a-8770-dca4a3b80439")
-	)
 	(text "Najviša nota"
 		(exclude_from_sim no)
 		(at 126.238 71.374 0)
@@ -1781,12 +1877,28 @@
 		(uuid "fc1aa069-4ac0-41a4-b560-6d99761f6307")
 	)
 	(no_connect
+		(at 21.59 177.8)
+		(uuid "101e0e14-d543-4951-b4f6-8b2d27039f6e")
+	)
+	(no_connect
+		(at 45.72 185.42)
+		(uuid "171f1b91-16da-4134-81fc-ee3239f33c32")
+	)
+	(no_connect
 		(at 163.83 43.18)
 		(uuid "3486e185-50b7-4234-9127-e8669869fd37")
 	)
 	(no_connect
+		(at 21.59 185.42)
+		(uuid "8da71fdf-35de-4da4-ae5f-f59530b28eba")
+	)
+	(no_connect
 		(at 185.42 35.56)
 		(uuid "91210f5e-2995-466b-9144-072768ec9e35")
+	)
+	(no_connect
+		(at 45.72 177.8)
+		(uuid "a4141f29-b51d-4c49-a2cd-a05bdeb09e4a")
 	)
 	(no_connect
 		(at 209.55 43.18)
@@ -2533,6 +2645,73 @@
 		(uuid "fd6c9dbc-7018-4149-b108-2177f6896684")
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 45.72 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00889f70-20a9-4b2a-b54a-aef90eb13a1e")
+		(property "Reference" "H3"
+			(at 48.26 172.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 48.26 175.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 45.72 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 45.72 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73bc5207-e86b-45cd-a7ea-76defecad84f")
+		)
+		(instances
+			(project "TVZSolderingPracticeKit"
+				(path "/f8b435ab-5f6e-4fa9-ab74-0f98728395bc"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 130.81 36.83 0)
 		(mirror x)
@@ -3163,6 +3342,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 45.72 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c755178-2447-4f85-9c4e-1c6d8add636f")
+		(property "Reference" "H4"
+			(at 48.26 180.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 48.26 182.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 45.72 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 45.72 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ff65215-1f58-416c-94ea-ce531851bcc4")
+		)
+		(instances
+			(project "TVZSolderingPracticeKit"
+				(path "/f8b435ab-5f6e-4fa9-ab74-0f98728395bc"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 125.73 43.18 270)
 		(mirror x)
@@ -3464,6 +3710,73 @@
 			(project ""
 				(path "/f8b435ab-5f6e-4fa9-ab74-0f98728395bc"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 21.59 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ed7a39f-02f6-413f-8b75-05fb6599b58f")
+		(property "Reference" "H1"
+			(at 24.13 172.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 24.13 175.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 21.59 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 21.59 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 21.59 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "378798f3-04f4-4fd9-8304-bd04a83b6aad")
+		)
+		(instances
+			(project ""
+				(path "/f8b435ab-5f6e-4fa9-ab74-0f98728395bc"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -3772,6 +4085,73 @@
 			(project "TVZSolderingPracticeKit"
 				(path "/f8b435ab-5f6e-4fa9-ab74-0f98728395bc"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 21.59 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7fef8fc-26e9-4114-b0e7-fe83bf6bf071")
+		(property "Reference" "H2"
+			(at 24.13 180.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 24.13 182.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 21.59 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 21.59 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 21.59 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e979ef8-17c5-476f-8405-5b6ea1c5a2f7")
+		)
+		(instances
+			(project "TVZSolderingPracticeKit"
+				(path "/f8b435ab-5f6e-4fa9-ab74-0f98728395bc"
+					(reference "H2")
 					(unit 1)
 				)
 			)
