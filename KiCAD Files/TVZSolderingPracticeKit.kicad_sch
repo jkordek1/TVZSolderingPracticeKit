@@ -3089,7 +3089,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "TODO:\n- ispraviti dimenzije pločice i napraviti zube s dvije strane\n- dummy potenciometar RK09K1130AH1\n- dodati tme komponente u BOM\n- Jumperi u BOM odnosno dodati na shemi\n- 3d printatni dio s držačem za bateriju\n"
+	(text "TODO:\n- dummy potenciometar RK09K1130AH1\n- dodati tme komponente u BOM\n- Jumperi u BOM odnosno dodati na shemi\n- 3d printatni dio s držačem za bateriju\n- JLCJLCJLCJLC\n"
 		(exclude_from_sim no)
 		(at 86.614 174.498 0)
 		(effects
