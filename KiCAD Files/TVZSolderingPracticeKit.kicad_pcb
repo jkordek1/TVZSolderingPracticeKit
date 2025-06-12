@@ -11839,9 +11839,9 @@
 	(footprint "Footprint:Wire"
 		(layer "F.Cu")
 		(uuid "b746e2b8-32c7-43a2-b7cc-f6d6c3a7c5e9")
-		(at 130.8 117.2)
+		(at 125.4 103.1 -90)
 		(property "Reference" "TP2"
-			(at 0 -2 0)
+			(at 0 -2 270)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -11854,7 +11854,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 0 2.5 0)
+			(at 0 2.5 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "d58a1984-bd35-4663-8e00-7719644f92f1")
@@ -11866,7 +11866,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11879,7 +11879,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11897,7 +11897,7 @@
 		(sheetfile "TVZSolderingPracticeKit.kicad_sch")
 		(attr board_only exclude_from_pos_files)
 		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
+			(at 0 4 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "1a151463-aef5-4f12-a9a7-acda676e4e8d")
@@ -11909,7 +11909,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0)
+			(at 0 0 270)
 			(size 2.5 2.5)
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
@@ -13229,9 +13229,9 @@
 	(footprint "Footprint:Wire"
 		(layer "F.Cu")
 		(uuid "d952d2dd-416c-4eac-b444-639f24f0a422")
-		(at 130.8 99)
+		(at 143.6 103.1 -90)
 		(property "Reference" "TP1"
-			(at 0 -2 0)
+			(at 0 -2 270)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -13244,7 +13244,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 0 2.5 0)
+			(at 0 2.5 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "01aa1590-d59b-4ca5-b344-a75ba6b47240")
@@ -13256,7 +13256,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -13269,7 +13269,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -13287,7 +13287,7 @@
 		(sheetfile "TVZSolderingPracticeKit.kicad_sch")
 		(attr board_only exclude_from_pos_files)
 		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
+			(at 0 4 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "a65fc410-4393-4311-8f9c-eedbc6e63aa1")
@@ -13299,7 +13299,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0)
+			(at 0 0 270)
 			(size 2.5 2.5)
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
@@ -14650,8 +14650,8 @@
 		(embedded_fonts no)
 	)
 	(gr_line
-		(start 142.2 100.3)
-		(end 142.2 116.1)
+		(start 142.3 114.5)
+		(end 126.5 114.5)
 		(stroke
 			(width 5)
 			(type solid)
@@ -14660,8 +14660,8 @@
 		(uuid "0009bc6c-9aca-4ed7-8a16-c935853649e9")
 	)
 	(gr_line
-		(start 136 98.8)
-		(end 136 117.6)
+		(start 143.8 108.3)
+		(end 125 108.3)
 		(stroke
 			(width 2)
 			(type solid)
@@ -14951,8 +14951,8 @@
 		(uuid "51dafbfd-6f6d-4e06-9808-7c9fba7cd5d0")
 	)
 	(gr_line
-		(start 130.8 115.4)
-		(end 130.8 113.8)
+		(start 127.2 103.1)
+		(end 128.8 103.1)
 		(stroke
 			(width 0.4)
 			(type solid)
@@ -15041,8 +15041,8 @@
 		(uuid "6432dd84-953b-4fd3-9144-a49e598fcb8f")
 	)
 	(gr_line
-		(start 130.8 100.8)
-		(end 130.8 102.6)
+		(start 141.8 103.1)
+		(end 140 103.1)
 		(stroke
 			(width 0.4)
 			(type solid)
@@ -15755,7 +15755,7 @@
 		)
 	)
 	(gr_text "DUMMY COMPONENTS"
-		(at 49.6 102.2 0)
+		(at 49.6 100.528 0)
 		(layer "F.SilkS")
 		(uuid "90601e94-3616-4b14-908b-9ce6aa5a0321")
 		(effects
@@ -15780,7 +15780,7 @@
 		)
 	)
 	(gr_text "JUMPER WIRE"
-		(at 131.52625 113.546429 90)
+		(at 129.053571 103.82625 0)
 		(layer "F.SilkS")
 		(uuid "bf08e414-cc5e-4860-bb04-b459ec456834")
 		(effects
@@ -15805,6 +15805,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "HIGH CURRENT TRACES"
+		(at 115 100.528 0)
+		(layer "F.SilkS")
+		(uuid "da9310c4-5a47-499a-9d91-de165e927a05")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "OFF"
 		(at 84.933333 80.15 0)
 		(layer "F.SilkS")
@@ -15819,16 +15832,16 @@
 		)
 	)
 	(segment
-		(start 136 98.8)
-		(end 136 117.6)
+		(start 143.8 108.3)
+		(end 125 108.3)
 		(width 2)
 		(layer "F.Cu")
 		(net 0)
 		(uuid "10f80fa6-b0ac-4038-9b20-6b025eb55d33")
 	)
 	(segment
-		(start 142.2 100.3)
-		(end 142.2 116.1)
+		(start 142.3 114.5)
+		(end 126.5 114.5)
 		(width 5)
 		(layer "F.Cu")
 		(net 0)
