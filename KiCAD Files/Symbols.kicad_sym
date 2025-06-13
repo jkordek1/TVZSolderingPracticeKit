@@ -160,4 +160,69 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "Jumper"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(property "Reference" "J"
+			(at 0 -2.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Jumper_1_1"
+			(polyline
+				(pts
+					(xy -3.81 -1.27) (xy 2.54 -1.27) (xy 3.81 -1.27) (xy 3.81 3.81) (xy 2.54 3.81) (xy 2.54 5.08) (xy 3.81 5.08)
+					(xy 3.81 6.35) (xy -3.81 6.35) (xy -3.81 5.08) (xy -2.54 5.08) (xy -2.54 3.81) (xy -3.81 3.81)
+					(xy -3.81 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 )
