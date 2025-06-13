@@ -3318,7 +3318,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "TODO:\n- Jumperi u BOM odnosno dodati na shemi\n- 3d printatni dio s držačem za bateriju\n- jumperi 3d modeli\n"
+	(text "TODO:\n- promijeniti 3d modele LEDica da budu realne boje\n- 3d printatni dio s držačem za bateriju\n- urediti shemu, montažnu shemu i BOM\n- urediti github\n- napisati upute za sastavljanje\n- dodati u bom mehaničke komponente za 3D printani dio (vijke i matice)"
 		(exclude_from_sim no)
 		(at 86.614 174.498 0)
 		(effects
@@ -3390,6 +3390,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "08c492f1-fc12-4965-85c0-b7252fc72871")
+	)
+	(junction
+		(at 148.59 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1af10766-a351-42af-9fc5-9be90e9a0eca")
 	)
 	(junction
 		(at 118.11 62.23)
@@ -3580,10 +3586,6 @@
 	(no_connect
 		(at 64.77 82.55)
 		(uuid "364f25ca-a59f-422a-ad82-3272f749663e")
-	)
-	(no_connect
-		(at 146.05 125.73)
-		(uuid "4e45ede4-9fb5-4fa3-8a0d-f47c62d0d86d")
 	)
 	(no_connect
 		(at 64.77 87.63)
@@ -4686,6 +4688,16 @@
 			(type default)
 		)
 		(uuid "bd168c63-884f-4757-a0ce-5399dc2a5f5d")
+	)
+	(wire
+		(pts
+			(xy 146.05 125.73) (xy 148.59 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be254794-70c4-47b6-bed8-9bc3a3598e1c")
 	)
 	(wire
 		(pts
