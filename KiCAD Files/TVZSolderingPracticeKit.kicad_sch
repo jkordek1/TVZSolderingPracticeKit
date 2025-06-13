@@ -2030,6 +2030,170 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_Potentiometer"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RV"
+				(at -4.445 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Potentiometer"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Potentiometer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resistor variable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Potentiometer*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Potentiometer_0_1"
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.143 0) (xy 2.286 0.508) (xy 2.286 -0.508) (xy 1.143 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
@@ -3089,7 +3253,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "TODO:\n- dummy potenciometar RK09K1130AH1\n- dodati tme komponente u BOM\n- Jumperi u BOM odnosno dodati na shemi\n- 3d printatni dio s držačem za bateriju\n- JLCJLCJLCJLC\n"
+	(text "TODO:\n- dummy potenciometar RK09K1130AH1\n- dodati tme komponente u BOM\n- Jumperi u BOM odnosno dodati na shemi\n- 3d printatni dio s držačem za bateriju\n- jumperi 3d modeli\n- JLCJLCJLCJLC\n"
 		(exclude_from_sim no)
 		(at 86.614 174.498 0)
 		(effects
@@ -3353,6 +3517,10 @@
 		(uuid "364f25ca-a59f-422a-ad82-3272f749663e")
 	)
 	(no_connect
+		(at 146.05 125.73)
+		(uuid "4e45ede4-9fb5-4fa3-8a0d-f47c62d0d86d")
+	)
+	(no_connect
 		(at 64.77 87.63)
 		(uuid "58ca9bc3-ec16-4414-846b-2bcecdb833ea")
 	)
@@ -3426,6 +3594,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 132.08) (xy 142.24 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05778a02-6712-490b-9ead-e5865fabb7b7")
+	)
+	(wire
+		(pts
 			(xy 212.09 71.12) (xy 214.63 71.12)
 		)
 		(stroke
@@ -3483,6 +3661,16 @@
 			(type default)
 		)
 		(uuid "085f8e59-bcdf-4078-bb91-262e32d13147")
+	)
+	(wire
+		(pts
+			(xy 137.16 119.38) (xy 137.16 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a4267a2-e193-4a09-a3b9-8f0489629c03")
 	)
 	(wire
 		(pts
@@ -3556,6 +3744,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 125.73) (xy 158.75 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "142c72c5-97d3-40a5-a0f9-0bea42839265")
+	)
+	(wire
+		(pts
 			(xy 30.48 43.18) (xy 33.02 43.18)
 		)
 		(stroke
@@ -3563,6 +3761,16 @@
 			(type default)
 		)
 		(uuid "15045b63-91d7-45ae-81b5-1e540ce19462")
+	)
+	(wire
+		(pts
+			(xy 148.59 125.73) (xy 148.59 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "152ddb57-83aa-4c42-a62d-4d50e468e89d")
 	)
 	(wire
 		(pts
@@ -3806,6 +4014,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 132.08) (xy 142.24 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47efe1b2-8716-4b6c-a1dc-41aa84fb1eb6")
+	)
+	(wire
+		(pts
 			(xy 55.88 43.18) (xy 58.42 43.18)
 		)
 		(stroke
@@ -3813,6 +4031,16 @@
 			(type default)
 		)
 		(uuid "480bb71a-dd24-491c-925d-2632d13a87c1")
+	)
+	(wire
+		(pts
+			(xy 138.43 125.73) (xy 137.16 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4837fc8b-bba2-49fb-b67a-5cd4c576e0fa")
 	)
 	(wire
 		(pts
@@ -4246,6 +4474,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 127) (xy 170.18 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4152a3a-4f28-4868-8485-08ab73a89723")
+	)
+	(wire
+		(pts
 			(xy 92.71 54.61) (xy 92.71 62.23)
 		)
 		(stroke
@@ -4363,6 +4601,16 @@
 			(type default)
 		)
 		(uuid "bc87c78b-4a08-41a5-a986-feb005930332")
+	)
+	(wire
+		(pts
+			(xy 149.86 125.73) (xy 148.59 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bce7e927-4b0c-49b9-a299-f526e1087791")
 	)
 	(wire
 		(pts
@@ -4633,6 +4881,16 @@
 			(type default)
 		)
 		(uuid "fa6cc95a-8772-4049-9dbc-25ffe7284d3e")
+	)
+	(wire
+		(pts
+			(xy 170.18 125.73) (xy 166.37 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbc76255-bab6-4de6-84b2-aebeeecbe250")
 	)
 	(wire
 		(pts
@@ -5019,6 +5277,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 162.56 125.73 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "11cfec72-959d-4c3e-939e-38c64be3c8ac")
+		(property "Reference" "D5"
+			(at 161.036 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "WHITE"
+			(at 160.274 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 162.56 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 162.56 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 162.56 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part Number" "INL-5AW30"
+			(at 162.56 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ac5514b9-ee70-48b5-bab5-9e758354c1ac")
+		)
+		(pin "1"
+			(uuid "13c508c1-2ebc-42bf-a4d5-24d400b2cc81")
+		)
+		(instances
+			(project "TVZSolderingPracticeKit"
+				(path "/f8b435ab-5f6e-4fa9-ab74-0f98728395bc"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND1")
 		(at 52.07 138.43 0)
 		(mirror y)
@@ -5157,6 +5502,86 @@
 			(project "TVZSolderingPracticeKit"
 				(path "/f8b435ab-5f6e-4fa9-ab74-0f98728395bc"
 					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 142.24 125.73 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26f4d18c-3e92-4d4a-90cb-55325648f823")
+		(property "Reference" "RV1"
+			(at 142.24 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 142.24 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprint:RK09K1130AH1"
+			(at 142.24 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 142.24 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part Number" "RK09K1130AH1"
+			(at 142.24 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "49388420-862d-4089-b3d9-1c64a0dfb206")
+		)
+		(pin "1"
+			(uuid "800ece2f-c96f-4688-b986-12babd93bbf3")
+		)
+		(pin "3"
+			(uuid "666509f0-3aca-4d65-b0d5-fe499257e81c")
+		)
+		(instances
+			(project ""
+				(path "/f8b435ab-5f6e-4fa9-ab74-0f98728395bc"
+					(reference "RV1")
 					(unit 1)
 				)
 			)
@@ -5468,6 +5893,72 @@
 			(project ""
 				(path "/f8b435ab-5f6e-4fa9-ab74-0f98728395bc"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 137.16 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3205cc67-c330-42f2-905f-8acfa267e788")
+		(property "Reference" "#PWR014"
+			(at 137.16 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 137.16 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 137.16 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d40314dc-884f-4e9a-96e1-3cb790068f88")
+		)
+		(instances
+			(project "TVZSolderingPracticeKit"
+				(path "/f8b435ab-5f6e-4fa9-ab74-0f98728395bc"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -7638,6 +8129,73 @@
 	)
 	(symbol
 		(lib_id "power:GND1")
+		(at 170.18 127 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5fd3c86-96db-492a-8bd1-de7b02dcb832")
+		(property "Reference" "#PWR015"
+			(at 170.18 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 170.18 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 170.18 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05ac8821-62a2-41e0-832a-ff8010092de5")
+		)
+		(instances
+			(project "TVZSolderingPracticeKit"
+				(path "/f8b435ab-5f6e-4fa9-ab74-0f98728395bc"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
 		(at 151.13 53.34 0)
 		(mirror y)
 		(unit 1)
@@ -7698,6 +8256,83 @@
 			(project ""
 				(path "/f8b435ab-5f6e-4fa9-ab74-0f98728395bc"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 153.67 125.73 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba842122-b1ba-4095-b72b-7b74f7500cd4")
+		(property "Reference" "R15"
+			(at 153.67 121.412 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2k2"
+			(at 153.67 123.444 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 153.67 127.508 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 153.67 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part Number" "1/4W2.2K"
+			(at 153.67 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1fc6fbc-09de-4e91-a0d6-258a47a837f4")
+		)
+		(pin "2"
+			(uuid "d784403d-4d13-46ab-b1bf-5e34756b55b3")
+		)
+		(instances
+			(project "TVZSolderingPracticeKit"
+				(path "/f8b435ab-5f6e-4fa9-ab74-0f98728395bc"
+					(reference "R15")
 					(unit 1)
 				)
 			)
