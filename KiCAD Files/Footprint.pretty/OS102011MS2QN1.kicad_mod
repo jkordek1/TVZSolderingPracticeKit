@@ -125,6 +125,66 @@
 		(layer "F.CrtYd")
 		(uuid "1214bf14-76c5-4945-bd36-5af80fcd3869")
 	)
+	(fp_line
+		(start -4.5 -2.5)
+		(end 4.5 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5ea1edd1-850c-4a09-afa2-1880eda55669")
+	)
+	(fp_line
+		(start -4.5 -1.5)
+		(end -4.5 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "36de949f-74e9-4d3a-9d5a-b82a7b6612b6")
+	)
+	(fp_line
+		(start -4.5 1.5)
+		(end -4.5 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eb4a4f00-39b8-4048-81c7-ff8a5cbb9d7d")
+	)
+	(fp_line
+		(start 4.5 -2.5)
+		(end 4.5 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "aa3d9681-7e4c-4d5a-870e-4647e962aa95")
+	)
+	(fp_line
+		(start 4.5 1.5)
+		(end 4.5 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4bc8c544-90d8-42cc-935b-8e5f0b19aff7")
+	)
+	(fp_line
+		(start 4.5 2.5)
+		(end -4.5 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "305e8b80-81f2-4656-ad36-5b46a0d6e026")
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 5 0)
 		(unlocked yes)

@@ -1,4 +1,4 @@
-25311725825451127
+25315225947697714
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -58514,6 +58514,20 @@ soldering
 0
 Footprint
 soldering-6mm
+
+
+0
+0
+0
+Footprint
+soldering-6mm-fab
+
+
+0
+0
+0
+Footprint
+soldering-17,5-fab
 
 
 0
