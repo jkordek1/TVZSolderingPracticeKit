@@ -3318,7 +3318,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "TODO:\n- promijeniti 3d modele LEDica da budu realne boje\n- 3d printatni dio s držačem za bateriju\n- urediti shemu, montažnu shemu i BOM\n- urediti github\n- napisati upute za sastavljanje\n- dodati u bom mehaničke komponente za 3D printani dio (vijke i matice)"
+	(text "TODO:\n- promijeniti 3d modele LEDica da budu realne boje\n- 3d printatni dio s držačem za bateriju\n- urediti shemu, montažnu shemu i BOM\n- dodati baterije u BOM\n- urediti github\n- napisati upute za sastavljanje\n- dodati u bom mehaničke komponente za 3D printani dio (vijke i matice)"
 		(exclude_from_sim no)
 		(at 86.614 174.498 0)
 		(effects
