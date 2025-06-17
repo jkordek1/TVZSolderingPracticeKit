@@ -10,7 +10,7 @@ This project is a custom-designed printed circuit board (PCB) developed as an ed
   <img src="https://github.com/jkordek1/TVZSolderingPracticeKit/blob/main/Images/PCB.png?raw=true">
 </p>
 
-Powered with 9V battery via barrel jack.
+Powered with 9V battery via barrel jack and adapter.
 
 NE555 Piano Buzzer Circuit:
 - Based on the NE555 timer configured in astable mode.
