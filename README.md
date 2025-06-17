@@ -34,6 +34,8 @@ Educational Layout: Segmented functional blocks help isolate and explain circuit
 
 ## Fabrication layer
 
+For PCB assembly, use the Fabrication.html file, which includes an easy-to-use Bill of Materials (BOM) with checkmarks. This file can be opened in any web browser.
+
 <p align="center">
   <img src="https://github.com/jkordek1/TVZSolderingPracticeKit/blob/main/Images/PCB-Fabrication-Front.png?raw=true">
 </p>
