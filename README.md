@@ -31,3 +31,5 @@ Offers insight into power and thermal considerations in PCB design.
 Design considerations:
 Clearly Labeled Silkscreen: Component values and orientation are printed to assist students during assembly.
 Educational Layout: Segmented functional blocks help isolate and explain circuit behavior.
+
+## 
