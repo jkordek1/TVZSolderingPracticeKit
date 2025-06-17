@@ -45,7 +45,7 @@ For PCB assembly, use the Fabrication.html file, which includes an easy-to-use B
 | Reference                       | Value             | Qty | TME Part Number    |
 |---------------------------------|-------------------|-----|--------------------|
 | BZ1                             | LD-BZEN-1205      | 1   | LD-BZEN-1205       |
-| C1                              | 100n              | 1   | CCT-100N/50V-S     |
+| C1                              | 100n              | 1   | C320C104K5R5TA7317 |
 | C2                              | 470u / 50V        | 1   | EEUFR1E471         |
 | D1                              | SR150-DC          | 1   | SR150-DC           |
 | D2                              | RED               | 1   | 1383-2SURD/S530-A3 |
