@@ -32,4 +32,8 @@ Design considerations:
 Clearly Labeled Silkscreen: Component values and orientation are printed to assist students during assembly.
 Educational Layout: Segmented functional blocks help isolate and explain circuit behavior.
 
-## 
+## Fabrication layer
+
+<p align="center">
+  <img src="https://github.com/jkordek1/TVZSolderingPracticeKit/blob/main/Images/PCB-Fabrication-Front.png?raw=true">
+</p>
