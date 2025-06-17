@@ -13611,7 +13611,7 @@
 				)
 			)
 		)
-		(property "TME Part Number" "CCT-100N/50V-S"
+		(property "TME Part Number" "C320C104K5R5TA7317"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
