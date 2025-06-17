@@ -2627,6 +2627,213 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Symbols:B2.5X5/BN2724"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board no)
+			(property "Reference" "U"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "B2.5X5/BN2724_1_1"
+				(rectangle
+					(start -2.54 5.08)
+					(end 2.54 3.81)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Symbols:B3/BN116"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board no)
+			(property "Reference" "U"
+				(at 0 -4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "B3/BN116_1_1"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Symbols:BAT"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3422,16 +3629,27 @@
 		)
 		(uuid "0830db3b-e778-42ea-bebc-74dd24771440")
 	)
-	(text "NOTES:\n- dodati u bom mehaničke komponente za 3D printani dio (vijke i matice)\n- urediti github\n- napisati upute za sastavljanje (koristeći ibom)\n"
+	(text "B3/BN116 nuts"
 		(exclude_from_sim no)
-		(at 17.272 180.848 0)
+		(at 106.426 195.072 0)
 		(effects
 			(font
-				(size 1.524 1.524)
+				(size 1.27 1.27)
+				(thickness 0.1588)
 			)
-			(justify left)
 		)
-		(uuid "1e38ebe8-9765-4ce9-ba6a-6accd0c0a7a2")
+		(uuid "0a5c6693-ed18-4603-b8f1-663e9b0d63cf")
+	)
+	(text "B2.5X5/BN2724 screws"
+		(exclude_from_sim no)
+		(at 106.426 172.974 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+		)
+		(uuid "323b68c8-6474-4e42-817a-bd844cef71c8")
 	)
 	(text "9V BATTERY"
 		(exclude_from_sim no)
@@ -3547,7 +3765,7 @@
 	)
 	(text "MECHANICAL"
 		(exclude_from_sim no)
-		(at 122.174 173.482 0)
+		(at 30.734 173.482 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -3772,11 +3990,11 @@
 		(uuid "ff375362-4c80-4212-92d4-4a588bc51564")
 	)
 	(no_connect
-		(at 111.76 185.42)
+		(at 20.32 185.42)
 		(uuid "101e0e14-d543-4951-b4f6-8b2d27039f6e")
 	)
 	(no_connect
-		(at 135.89 193.04)
+		(at 44.45 193.04)
 		(uuid "171f1b91-16da-4134-81fc-ee3239f33c32")
 	)
 	(no_connect
@@ -3792,11 +4010,11 @@
 		(uuid "58ca9bc3-ec16-4414-846b-2bcecdb833ea")
 	)
 	(no_connect
-		(at 162.56 191.77)
+		(at 71.12 191.77)
 		(uuid "6834412b-5ae5-4fbb-84cf-355d73e74de7")
 	)
 	(no_connect
-		(at 162.56 184.15)
+		(at 71.12 184.15)
 		(uuid "68d22b2b-707f-43d2-8b0c-becf0e4194d3")
 	)
 	(no_connect
@@ -3808,7 +4026,7 @@
 		(uuid "7e2bae15-fca6-462c-a641-b46efa7f1c9c")
 	)
 	(no_connect
-		(at 111.76 193.04)
+		(at 20.32 193.04)
 		(uuid "8da71fdf-35de-4da4-ae5f-f59530b28eba")
 	)
 	(no_connect
@@ -3820,7 +4038,7 @@
 		(uuid "9c342d15-c702-4966-8648-c0a96a18769a")
 	)
 	(no_connect
-		(at 135.89 185.42)
+		(at 44.45 185.42)
 		(uuid "a4141f29-b51d-4c49-a2cd-a05bdeb09e4a")
 	)
 	(no_connect
@@ -4448,16 +4666,6 @@
 			(type default)
 		)
 		(uuid "5933631d-bf3d-48a6-996a-c4caaffb2020")
-	)
-	(polyline
-		(pts
-			(xy 107.95 166.37) (xy 107.95 198.12)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "59b700a6-8be8-426b-87d0-49ec903b0fd6")
 	)
 	(wire
 		(pts
@@ -5241,7 +5449,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 135.89 182.88 0)
+		(at 44.45 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -5250,7 +5458,7 @@
 		(fields_autoplaced yes)
 		(uuid "00889f70-20a9-4b2a-b54a-aef90eb13a1e")
 		(property "Reference" "H3"
-			(at 138.43 180.3399 0)
+			(at 46.99 180.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5259,7 +5467,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 138.43 182.8799 0)
+			(at 46.99 182.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5268,7 +5476,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 135.89 182.88 0)
+			(at 44.45 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5277,7 +5485,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 135.89 182.88 0)
+			(at 44.45 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5286,7 +5494,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 135.89 182.88 0)
+			(at 44.45 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5829,6 +6037,80 @@
 			(project "TVZSolderingPracticeKit"
 				(path "/f8b435ab-5f6e-4fa9-ab74-0f98728395bc"
 					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Symbols:B2.5X5/BN2724")
+		(at 115.57 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22cc2833-ac32-4884-8c56-7bd02654eaef")
+		(property "Reference" "U7"
+			(at 119.38 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 119.38 180.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part Number" "B2.5X5/BN2724"
+			(at 115.57 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "TVZSolderingPracticeKit"
+				(path "/f8b435ab-5f6e-4fa9-ab74-0f98728395bc"
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -6465,6 +6747,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Symbols:B3/BN116")
+		(at 109.22 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b532ed3-8c7a-4af1-baf7-e8e4c03084ba")
+		(property "Reference" "U10"
+			(at 113.03 188.5949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 113.03 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part Number" "B3/BN116"
+			(at 109.22 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "TVZSolderingPracticeKit"
+				(path "/f8b435ab-5f6e-4fa9-ab74-0f98728395bc"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 242.57 134.62 90)
 		(unit 1)
@@ -6546,6 +6902,80 @@
 			(project "TVZSolderingPracticeKit"
 				(path "/f8b435ab-5f6e-4fa9-ab74-0f98728395bc"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Symbols:B2.5X5/BN2724")
+		(at 96.52 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ec76fc1-a16e-4a25-80d9-475c0a735866")
+		(property "Reference" "U4"
+			(at 100.33 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 100.33 180.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part Number" "B2.5X5/BN2724"
+			(at 96.52 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/f8b435ab-5f6e-4fa9-ab74-0f98728395bc"
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -6931,7 +7361,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 135.89 190.5 0)
+		(at 44.45 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -6940,7 +7370,7 @@
 		(fields_autoplaced yes)
 		(uuid "4c755178-2447-4f85-9c4e-1c6d8add636f")
 		(property "Reference" "H4"
-			(at 138.43 187.9599 0)
+			(at 46.99 187.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6949,7 +7379,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 138.43 190.4999 0)
+			(at 46.99 190.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6958,7 +7388,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 135.89 190.5 0)
+			(at 44.45 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6967,7 +7397,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 135.89 190.5 0)
+			(at 44.45 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6976,7 +7406,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 135.89 190.5 0)
+			(at 44.45 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7068,6 +7498,80 @@
 			(project ""
 				(path "/f8b435ab-5f6e-4fa9-ab74-0f98728395bc"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Symbols:B3/BN116")
+		(at 96.52 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "563258ce-f08a-4297-9b18-cf04d64827cc")
+		(property "Reference" "U8"
+			(at 100.33 188.5949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 100.33 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part Number" "B3/BN116"
+			(at 96.52 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/f8b435ab-5f6e-4fa9-ab74-0f98728395bc"
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -7215,6 +7719,80 @@
 			(project "TVZSolderingPracticeKit"
 				(path "/f8b435ab-5f6e-4fa9-ab74-0f98728395bc"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Symbols:B2.5X5/BN2724")
+		(at 102.87 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a005c9f-a065-4708-8bd2-7416d7966b6d")
+		(property "Reference" "U5"
+			(at 106.68 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 106.68 180.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part Number" "B2.5X5/BN2724"
+			(at 102.87 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "TVZSolderingPracticeKit"
+				(path "/f8b435ab-5f6e-4fa9-ab74-0f98728395bc"
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -7452,7 +8030,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 111.76 182.88 0)
+		(at 20.32 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -7461,7 +8039,7 @@
 		(fields_autoplaced yes)
 		(uuid "6ed7a39f-02f6-413f-8b75-05fb6599b58f")
 		(property "Reference" "H1"
-			(at 114.3 180.3399 0)
+			(at 22.86 180.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7470,7 +8048,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 114.3 182.8799 0)
+			(at 22.86 182.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7479,7 +8057,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 111.76 182.88 0)
+			(at 20.32 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7488,7 +8066,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 111.76 182.88 0)
+			(at 20.32 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7497,7 +8075,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 111.76 182.88 0)
+			(at 20.32 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7894,7 +8472,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 162.56 184.15 0)
+		(at 71.12 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -7903,7 +8481,7 @@
 		(fields_autoplaced yes)
 		(uuid "88227a30-15c6-4892-8fca-cb8caeb0ac4a")
 		(property "Reference" "TP1"
-			(at 165.1 180.8479 0)
+			(at 73.66 180.8479 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7912,7 +8490,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 165.1 182.1179 0)
+			(at 73.66 182.1179 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7922,7 +8500,7 @@
 			)
 		)
 		(property "Footprint" "Footprint:Wire"
-			(at 167.64 184.15 0)
+			(at 76.2 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7931,7 +8509,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 167.64 184.15 0)
+			(at 76.2 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7940,7 +8518,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 162.56 184.15 0)
+			(at 71.12 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8105,6 +8683,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Symbols:B3/BN116")
+		(at 102.87 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c034421-bade-4586-9ac3-02913d54eb32")
+		(property "Reference" "U9"
+			(at 106.68 188.5949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 106.68 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part Number" "B3/BN116"
+			(at 102.87 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "TVZSolderingPracticeKit"
+				(path "/f8b435ab-5f6e-4fa9-ab74-0f98728395bc"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_SPDT")
 		(at 226.06 116.84 0)
 		(mirror y)
@@ -8263,6 +8915,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Symbols:B3/BN116")
+		(at 115.57 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a063f363-6fe5-4c5d-9c1a-6404a86ffe32")
+		(property "Reference" "U11"
+			(at 119.38 188.5949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 119.38 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part Number" "B3/BN116"
+			(at 115.57 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "TVZSolderingPracticeKit"
+				(path "/f8b435ab-5f6e-4fa9-ab74-0f98728395bc"
+					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 52.07 147.32 270)
 		(mirror x)
@@ -8341,7 +9067,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 111.76 190.5 0)
+		(at 20.32 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -8350,7 +9076,7 @@
 		(fields_autoplaced yes)
 		(uuid "a7fef8fc-26e9-4114-b0e7-fe83bf6bf071")
 		(property "Reference" "H2"
-			(at 114.3 187.9599 0)
+			(at 22.86 187.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8359,7 +9085,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 114.3 190.4999 0)
+			(at 22.86 190.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8368,7 +9094,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 111.76 190.5 0)
+			(at 20.32 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8377,7 +9103,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 111.76 190.5 0)
+			(at 20.32 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8386,7 +9112,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 111.76 190.5 0)
+			(at 20.32 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9753,7 +10479,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 162.56 191.77 0)
+		(at 71.12 191.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -9762,7 +10488,7 @@
 		(fields_autoplaced yes)
 		(uuid "ec7eba8a-a245-48d2-a0b3-46328f9dd87e")
 		(property "Reference" "TP2"
-			(at 165.1 188.4679 0)
+			(at 73.66 188.4679 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9771,7 +10497,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 165.1 189.7379 0)
+			(at 73.66 189.7379 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9781,7 +10507,7 @@
 			)
 		)
 		(property "Footprint" "Footprint:Wire"
-			(at 167.64 191.77 0)
+			(at 76.2 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9790,7 +10516,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 167.64 191.77 0)
+			(at 76.2 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9799,7 +10525,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 162.56 191.77 0)
+			(at 71.12 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9835,6 +10561,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Value" "~"
@@ -10051,6 +10778,80 @@
 			(project ""
 				(path "/f8b435ab-5f6e-4fa9-ab74-0f98728395bc"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Symbols:B2.5X5/BN2724")
+		(at 109.22 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f46bfcfe-89bb-44d0-95d9-8db7a7178884")
+		(property "Reference" "U6"
+			(at 113.03 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 113.03 180.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part Number" "B2.5X5/BN2724"
+			(at 109.22 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "TVZSolderingPracticeKit"
+				(path "/f8b435ab-5f6e-4fa9-ab74-0f98728395bc"
+					(reference "U6")
 					(unit 1)
 				)
 			)
