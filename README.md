@@ -21,7 +21,7 @@ Charge/Discharge with LED Indicators:
 - LEDs serve as visual indicators for charging and discharging states.
 
 Dummy Passive Component Sections:
-- Includes extra pads for resistors, capacitors, and diodes with no critical function—used purely for soldering practice.
+- Includes extra resistors, pin headers and sockets with no critical function—used purely for soldering practice.
 - These sections allow repeated practice without impacting circuit operation.
 
 High-Current Trace Design:
