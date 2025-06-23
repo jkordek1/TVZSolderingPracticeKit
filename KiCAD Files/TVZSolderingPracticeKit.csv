@@ -1,6 +1,6 @@
 "Reference","Value","Footprint","Qty","TME Part Number","DNP","Exclude from BOM","Exclude from Board"
 "BZ1","LD-BZEN-1205","Footprint:LD-BZEN-1205","1","LD-BZEN-1205","","",""
-"C1","100n","Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm","1","CCT-100N/50V-S","","",""
+"C1","100n","Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm","1","C320C104K5R5TA7317","","",""
 "C2","470u / 50V","Capacitor_THT:CP_Radial_D10.0mm_P5.00mm","1","EEUFR1E471","","",""
 "D1","SR150-DC","Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal","1","SR150-DC","","",""
 "D2","RED","LED_THT:LED_D5.0mm","1","1383-2SURD/S530-A3","","",""
