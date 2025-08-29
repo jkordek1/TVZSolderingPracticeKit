@@ -5533,7 +5533,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 151.384 37.846 0)
+			(at 151.638 37.846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
