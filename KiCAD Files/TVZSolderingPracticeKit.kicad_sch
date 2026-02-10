@@ -7960,21 +7960,21 @@
 		(fields_autoplaced yes)
 		(uuid "685561d0-660a-4a4c-82e1-cd7285959540")
 		(property "Reference" "C1"
-			(at 165.1 68.5799 0)
+			(at 172.72 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "100n"
-			(at 165.1 71.1199 0)
+		(property "Value" "220n"
+			(at 172.72 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
